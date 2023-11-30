@@ -8,7 +8,7 @@ import { DataSource } from 'typeorm';
 import { AuthGuard } from './core/guards/auth.guard';
 import { ResponseInterceptor } from './core/interceptors';
 import { ConfigTypeOrmMssql } from './infra/config';
-import { AnexosModule, HealthCheckModule, UsuariosModule } from './modules';
+import { HealthCheckModule, UsuariosModule } from './modules';
 import { AuthModule } from './modules/auth/auth.module';
 import { FormasPagamentoModule } from './modules/formasPagamento/formasPagamento.module';
 import { ServicosModule } from './modules/servicos/servicos.module';
@@ -29,8 +29,7 @@ import { IndicadoresModule } from './modules/indicadores/indicadores.module';
     TypeOrmModule.forRootAsync({
       useClass: ConfigTypeOrmMssql
     }),
-    HealthCheckModule,
-    AnexosModule,
+    HealthCheckModule,    
     UsuariosModule,
     AuthModule,
     FormasPagamentoModule,
