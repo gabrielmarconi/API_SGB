@@ -1,0 +1,6 @@
+export * from './createServicos.service'
+export * from './deleteServicos.service'
+export * from './getServicos.service'
+export * from './updateServicos.service'
+export * from './exportarServicos.service'
+export * from './atualizarValoresServicos.service'

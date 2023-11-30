@@ -1,0 +1,6 @@
+export * from './createClientes.service'
+export * from './deleteClientes.service'
+export * from './getClientes.service'
+export * from './updateClientes.service'
+export * from './exportarClientes.service'
+export * from './getListagemClientes.service'

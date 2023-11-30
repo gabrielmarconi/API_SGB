@@ -1,0 +1,6 @@
+export * from './createFuncionarios.service'
+export * from './deleteFuncionarios.service'
+export * from './getFuncionarios.service'
+export * from './updateFuncionarios.service'
+export * from './exportarFuncionarios.service'
+export * from './getListagemFuncionarios.service'
