@@ -19,7 +19,7 @@ export class VerificaAtendimentoExistenteService {
             idFuncionario: data.idFuncionario,
             todosAtendimentos: data.idAtendimento ? 0 : 1,
             idAtendimento: data.idAtendimento ? data.idAtendimento : 0
-        }
+        }        
         
         const atendimentosExistentes = await this.atendimentoRepository.verificarAtendimentoExistente(parametrosVerificacao); 
         
